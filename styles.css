@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*index*/
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+.content > h1{
+    text-align: center;
+}
+.menu {
+    margin: 2rem 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.link-character{
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    background: darkcyan;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.link-character:hover{
+    background: white;
+    color: darkcyan;
+    border: 1px solid darkcyan;
+}
+.info{
+    margin: 2rem 0;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.p-info{
+    width: 600px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.name-team{
+    font-weight: 500;
+}
+
+/*Cards*/
+.container-card{
+    width: 90%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+.title-cards{
+    margin: 0 auto;
+    padding: 3rem   ;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+.card > figure{
+    height: auto;
+}
+.img-character{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2rem;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+}
+.card img{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    height: 450px;
+    padding: 1rem;
+}
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido-card h3{
+    margin-bottom: 15px;
+    color: #7a7a7a;
+}
+.card .contenido-card p{
+    line-height: 1.8;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card .contenido-card a{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+.arreglo{
+    color: #6a6a6a;
+    background-color: #7a7a7a;
+}
