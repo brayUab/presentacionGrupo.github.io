@@ -101,13 +101,13 @@ li{
 .card img{
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
-    height: 450px;
+    height: 350px;
     padding: 1rem;
 }
 .card .contenido-card{
-    padding: 15px;
+    
     text-align: center;
 }
 .card .contenido-card h3{
@@ -118,24 +118,39 @@ li{
     line-height: 1.8;
     color: #6a6a6a;
     font-size: 14px;
-    margin-bottom: 5px;
 }
 .card .contenido-card a{
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
     text-decoration: none;
     color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
     transition: all 400ms ease;
-    margin-bottom: 5px;
 }
 .card .contenido-card a:hover{
     background: #2fb4cc;
     color: #fff;
+    border-radius: 2rem;
 }
 .arreglo{
     color: #6a6a6a;
     background-color: #7a7a7a;
+}
+
+/*Omar*/
+
+.description-omar{
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.section-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#icon-links-personal {
+    padding: .5rem;
+    border-radius: 2rem;
+}
+.end-section{
+    padding: 2rem;
 }
